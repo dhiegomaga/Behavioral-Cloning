@@ -24,11 +24,11 @@ The car is first driven manually, and the output of the controls (Steering Angle
 
 The files used in the project:
 
-* Simulator : The excecutable version for Windows, Linux and Mac can be found in this [repository]( https://github.com/udacity/self-driving-car-sim ). 
-* Model.ipynb : Contains the network model architecture. 
-* model-weights.h5 : The network weights, used by the simulator to run the car autonomously. 
-* drive.py : Used to run the simulation using the trained model. 
-* video.mp4 : A sample result
+* **Simulator** : The excecutable version for Windows, Linux and Mac can be found in this [repository]( https://github.com/udacity/self-driving-car-sim ). 
+* *Model.ipynb* : Contains the network model architecture. 
+* *model-weights.h5* : The network weights, used by the simulator to run the car autonomously. 
+* *drive.py* : Used to run the simulation using the trained model. 
+* *video.mp4* : A sample result
 
 Dependencies
 ---
