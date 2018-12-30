@@ -2,12 +2,57 @@
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-Note: Simulator used [found here](https://github.com/udacity/self-driving-car-sim)
+Quick Run
+---
 
-![alt text](examples/sim_image.png)
+```sh
+python drive.py model-weights.h5
+```
 
 Overview
 ---
+
+![alt text](examples/sim_image.png)
+
+This project is aimed at training a neural network to drive a car autonomously inside a simulator through behavioral cloning. The car is first driven manually, and the output of the controls (Steering Angle, Throttle, Break and Speed) are recorded into a .csv file, as well as the image being seen by the car from 3 different viewports (center, left shield and right shield). This is then fed into a neural network that learns the desired output controls for the current image observed. 
+
+The files used in the project are the following:
+
+* Simulator : The excecutable version for Windows, Linux and Mac can be found in this [repository]( https://github.com/udacity/self-driving-car-sim ). 
+* Model.ipynb : Contains the network model architecture. 
+* model-weights.h5 : The network weights, used by the simulator to run the car autonomously. 
+* drive.py : Used to run the simulation using the trained model. 
+* video.mp4 : A sample result
+
+Dependencies
+---
+
+Ideally a GPU is needed to run the model in realtime. Python 3.6 is used with keras 2.2, and a tensorflow backend. 
+
+Training the Network
+---
+
+### Recording the data
+
+1. Download and run the simulator
+2. "Play"
+3. "Training Mode"
+4. Press **R**
+5. (Create and) select *data/* folder (relative to repository root).
+6. Press **R** again to start recording. 
+7. Drive around using **W** and hold-and-drag the mouse button to steer the wheel. 
+8. Press **R** again to stop recording. 
+
+### Run the Network
+
+1. Run all the cells inside *Model.ipynb*. 
+
+
+
+
+Dont read past this 
+---
+
 This repository contains starting files for the Behavioral Cloning Project.
 
 In this project, you will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior. You will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.
