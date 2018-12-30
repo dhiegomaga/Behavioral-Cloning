@@ -18,9 +18,11 @@ and then start the simulator in *autonomous* mode ([download simulator]( https:/
 Overview
 ---
 
-This project is aimed at training a neural network to drive a car autonomously inside a simulator through behavioral cloning. The car is first driven manually, and the output of the controls (Steering Angle, Throttle, Break and Speed) are recorded into a .csv file, as well as the image being seen by the car from 3 different viewports (center, left shield and right shield). This is then fed into a neural network that learns the desired output controls for the current image observed. 
+This project is aimed at training a neural network to drive a car autonomously inside a simulator through behavioral cloning. 
 
-The files used in the project are the following:
+The car is first driven manually, and the output of the controls (Steering Angle, Throttle, Break and Speed) are recorded into a .csv file, as well as the image being seen by the car from 3 different viewports (center, left shield and right shield). This is then fed into a neural network that learns the desired output controls for the current image observed. 
+
+The files used in the project:
 
 * Simulator : The excecutable version for Windows, Linux and Mac can be found in this [repository]( https://github.com/udacity/self-driving-car-sim ). 
 * Model.ipynb : Contains the network model architecture. 
