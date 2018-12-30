@@ -5,9 +5,13 @@
 Quick Run
 ---
 
+To run the simulation in autonomous mode run
+
 ```sh
 python drive.py model-weights.h5
 ```
+
+and then start the simulator in *autonomous* mode ([download simulator]( https://github.com/udacity/self-driving-car-sim )).
 
 ![alt text](examples/sim_image.png)
 
