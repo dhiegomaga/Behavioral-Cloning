@@ -9,10 +9,10 @@ Quick Run
 python drive.py model-weights.h5
 ```
 
+![alt text](examples/sim_image.png)
+
 Overview
 ---
-
-![alt text](examples/sim_image.png)
 
 This project is aimed at training a neural network to drive a car autonomously inside a simulator through behavioral cloning. The car is first driven manually, and the output of the controls (Steering Angle, Throttle, Break and Speed) are recorded into a .csv file, as well as the image being seen by the car from 3 different viewports (center, left shield and right shield). This is then fed into a neural network that learns the desired output controls for the current image observed. 
 
