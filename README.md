@@ -2,6 +2,9 @@
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+Note: Simulator used [found here](https://github.com/udacity/self-driving-car-sim)
+[!alt text](examples/sim_image.png)
+
 Overview
 ---
 This repository contains starting files for the Behavioral Cloning Project.
