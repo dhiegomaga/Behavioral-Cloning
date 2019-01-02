@@ -35,7 +35,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 The data consists of steering angles and car front vision images. Here is an example image of center lane driving image:
 
-![alt text][examples/front-center-vision.jpg]
+![alt text](examples/front-center-vision.jpg)
 
 #### Architecture
 
@@ -87,13 +87,13 @@ After the collection process, there were about 7000 data samples.
 
 The overall loss was low and decreasing at each epoch on both train and test, hovering around 0.005 to 0.2. Bellow is a graph of the train and validation loss over 4 epochs in one of the trainings. 
 
-[!alt text](examples/loss.png)
+![alt text](examples/loss.png)
 
 This visualization helps to see if the model is underfitting (high training loss) or overfitting (low training loss but high validation loss). 
 
 In most cases the vehicle was able to stay on the road, however certain spots made the car drift off the lane and crash. The approach taken was to record more data in those spots, as well as recording recovery action data. Bellow the *.gif* shows an example of a recovery action being recorded, where the car was about to leave the road, and it took a strong turn left. 
 
-[!alt text](examples/drift.gif)
+![alt text](examples/drift.gif)
 
 Capturing data of these specific instances helped train the model to act better on special scenarios. 
 
