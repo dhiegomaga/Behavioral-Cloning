@@ -26,7 +26,7 @@ The car is first driven manually, and the output of the controls (Steering Angle
 
 The files used in the project:
 
-* **Simulator** : The excecutable version for Windows, Linux and Mac can be found in this [repository]( https://github.com/udacity/self-driving-car-sim ). 
+* **Simulator** : The executable version for Windows, Linux and Mac can be found in this [repository]( https://github.com/udacity/self-driving-car-sim ). 
 * *Model.ipynb* : Contains the network model architecture. 
 * *model.h5* : The network architecture and weights, used by the simulator to run the car autonomously. 
 * *drive.py* : Used to run the simulation using the trained model. 
@@ -53,8 +53,10 @@ Training the Network
 
 ### Run the Network
 
-1. Run all the cells inside *Model.ipynb*. The new weights will override *model-weights.h5* .
+1. Run all the cells inside *Model.ipynb*, and the model will automatically be saved as model.h5. 
 
 ***Addiotional notes***
 
 The directory separator character might vary from system to system. On windows it is the backslash, '\', but on Linux it is usually forward slash. This affects the third cell from the notebook, when reading the data, and will cause errors if not set correctly. 
+
+Training the network for successful operation of the car will usually require a large amount of driving recording, and specific cases of drive recovery (when the car deviates from the route and acts to come back to center). 
