@@ -57,6 +57,6 @@ Training the Network
 
 ***Addiotional notes***
 
-The directory separator character might vary from system to system. On windows it is the backslash, '\\', but on Linux it is usually forward slash. This affects the third cell from the notebook, when reading the data, and will cause errors if not set correctly. 
+The directory separator character might vary from system to system. On windows it is the backslash, '\\', but on Linux it is usually forward slash. This affects **line 43 in model.py**, when splitting the read data lines, and will cause errors if not set correctly. 
 
 Training the network for successful operation of the car will usually require a large amount of driving recording, and specific cases of drive recovery (when the car deviates from the route and acts to come back to center). 
