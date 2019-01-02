@@ -4,6 +4,9 @@ from datetime import datetime
 import os
 import shutil
 
+# Prevent from using GPU
+os.environ["CUDA_VISIBLE_DEVICES"]="-1" 
+
 import numpy as np
 import socketio
 import eventlet
