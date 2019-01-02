@@ -7,8 +7,7 @@ Quick Run
 
 * Install dependencies
 * [Download model](https://drive.google.com/file/d/1wOHHasGP3zMBEGJmsXD9jYiH-7hTVMwU/view?usp=sharing).
-
-To run the simulation in autonomous mode run (after having installed all dependencies)
+* Run
 
 ```sh
 python drive.py model.h5
@@ -36,7 +35,7 @@ The files used in the project:
 Dependencies
 ---
 
-Ideally a GPU is needed to run the model in realtime. Python 3.6 is used with keras 2.2, and a tensorflow backend. 
+Ideally a GPU is needed to run the model in realtime. Python 3.6 is used with keras 2.2, and a tensorflow backend. Other dependencies for simulation include: socketio, eventlet, flask. 
 
 Training the Network
 ---
