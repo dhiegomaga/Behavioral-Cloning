@@ -35,7 +35,7 @@ The files used in the project:
 Dependencies
 ---
 
-Ideally a GPU is needed to run the model in realtime. Python 3.6 is used with keras 2.2, and a tensorflow backend. Other dependencies for simulation include: socketio, eventlet, flask. 
+Ideally a GPU is needed to run the model in realtime. *python 3.5* is used with *keras 2.2*, and a *tensorflow* backend. Other dependencies for simulation include: *socketio, eventlet, flask*. 
 
 Training the Network
 ---
