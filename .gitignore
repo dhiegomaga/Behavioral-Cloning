@@ -2,3 +2,4 @@ data/
 beta_simulator_windows/
 *.lnk
 *.h5
+.ipynb_checkpoints/
